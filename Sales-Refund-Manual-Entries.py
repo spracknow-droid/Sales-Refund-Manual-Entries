@@ -107,7 +107,6 @@ if uploaded_file is not None:
 
 # 파일이 업로드되지 않았을 때만 메시지 표시
 else:
-    st.info('계정별원장 엑셀 파일을 업로드하세요.')
     # --- 초기 화면에 추가할 안내 문구 시작 ---
     st.markdown("""
     ---
